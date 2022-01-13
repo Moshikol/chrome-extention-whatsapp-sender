@@ -1,0 +1,13 @@
+{
+  "name": "Whatsapp_message_sender",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Sends a interview message to a phone number",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "main.js"
+  }
+}

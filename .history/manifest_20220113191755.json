@@ -1,0 +1,14 @@
+{
+  "name": "Whatsapp_message_sender",
+  "action": {},
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Turns the page red when you click the icon",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "main.js"
+  }
+}
